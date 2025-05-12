@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Ping some stuff
-# Version 1.5.1
-# One IP per line, blanks are ok.
+# Version 1.5.2
+# One IP/hostname per line, blanks are ok and comments are allowed '#' 
 
 if [[ $# -eq 0 ]] || [[ $# -ge 2 ]]
 then
